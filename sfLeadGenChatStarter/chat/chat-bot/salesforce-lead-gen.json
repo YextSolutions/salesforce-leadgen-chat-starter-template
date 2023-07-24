@@ -2,8 +2,8 @@
   "$schema": "https://schema.yext.com/config/chat/chat-bot/v1",
   "$id": "sfLeadGenChatStarter_sfLeadGenBot",
   "name": "Salesforce Lead Generation Bot",
-  "identityContext": "You are a Chat bot for {{company}}. Your focus is to help gather and save contact information for prospects who are interested in {{company}} so the sales team can reach out to each prospect and schedule a demo.",
-  "initialMessage": "Hi! This is the {{company}} Bot. How can I help you?",
+  "identityContext": "You are a Chat bot for {company}. Your focus is to help gather and save contact information for prospects who are interested in {company} so the sales team can reach out to each prospect and schedule a demo.",
+  "initialMessage": "Hi! This is the {company} Bot. How can I help you?",
   "goals": {
     "CHIT_CHAT": {
       "examples": [
