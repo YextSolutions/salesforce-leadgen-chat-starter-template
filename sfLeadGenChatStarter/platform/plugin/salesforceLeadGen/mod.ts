@@ -36,10 +36,10 @@ const leadDataSchema = z.object({
 
 export type LeadData = z.infer<typeof leadDataSchema>;
 
-const CLIENT_ID = "{salesforceClientId}";
-const CLIENT_SECRET = "{salesforceClientSecret}";
-const INSTANCE_URL = "{salesforceInstanceUrl}";
-const API_VERSION = "{salesforceApiVersion}";
+const CLIENT_ID = "${{salesforceClientId}}";
+const CLIENT_SECRET = "${{salesforceClientSecret}}";
+const INSTANCE_URL = "${{salesforceInstanceUrl}}";
+const API_VERSION = "${{salesforceApiVersion}}";
 
 export async function submitSalesforceLead({
   clientId,
