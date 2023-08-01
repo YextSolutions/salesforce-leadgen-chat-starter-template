@@ -2,13 +2,13 @@
 
 ## **Overview**
 
-_The Salesforce Lead Gen Chat Starter Template includes an example Chat configuration that will gather contact information for prospects interested in a demo and create a new lead in Salesforce._
+_The Salesforce Lead Gen Chat Starter Template includes an example Chat configuration that will gather lead information for prospects interested in a demo and create a new lead in Salesforce._
 
 ## **What’s Included**
 
 ### Chat
 
-This template includes a Chat configuration focused on gathering contact information and creating leads in Salesforce for prospects interested in a product demo.
+This template includes a Chat configuration focused on gathering lead information and creating leads in Salesforce for prospects interested in a product demo.
 
 ### Plugins
 
@@ -26,7 +26,7 @@ This template requires access to the following Yext products:
 
 #### Salesforce
 
-This template requires the creation of a Connected App within Salesforce. This will allow access to the APIs required to create new contacts. Follow the instructions below to create the Connected App:
+This template requires the creation of a Connected App within Salesforce. This will allow access to the APIs required to create new leads. Follow the instructions below to create the Connected App:
 
 1. In Salesforce Setup, navigate to **Apps > App Manager**.
 2. Click **New Connected App**.
@@ -51,7 +51,7 @@ This template requires the creation of a Connected App within Salesforce. This w
    1. <span style="text-decoration:underline;">Company</span> - The name of your company to be used in your chatbot’s greeting message.
    2. <span style="text-decoration:underline;">Salesforce Client ID</span> - This is the Consumer Key from your Salesforce Connected App.
    3. <span style="text-decoration:underline;">Salesforce Client Secret</span> - This is the Consumer Secret from your Salesforce Connected App.
-   4. <span style="text-decoration:underline;">Salesforce Instance URL</span> - This should be the full URL of your Salesforce Instance which will be used in the Create Contact API call. You can find this value by navigating to Setup > My Domain.
+   4. <span style="text-decoration:underline;">Salesforce Instance URL</span> - This should be the full URL of your Salesforce Instance which will be used in the Create Lead API call. You can find this value by navigating to Setup > My Domain.
    5. <span style="text-decoration:underline;">Salesforce API Version</span> - The API version associated with your Salesforce instance. This needs to take the format of “v58.0”, adjusting with your version number. To find this, navigate to Setup > API. Click “Generate Enterprise WSDL”. Click “Generate” and you’ll be redirected to a page showing the API Version near the top.
 8. Enter these values and click **Save**.
 9. A window will pop up showing all of the resources that will be added / edited within your account. Click **Continue** and, when prompted, click **Confirm**.
