@@ -2,17 +2,17 @@
 
 ## **Overview**
 
-_The Salesforce Lead Gen Chat Starter Template includes an example Chat configuration that will gather contact information for prospects interested in a demo and create a new contact in Salesforce._
+_The Salesforce Lead Gen Chat Starter Template includes an example Chat configuration that will gather contact information for prospects interested in a demo and create a new lead in Salesforce._
 
 ## **What’s Included**
 
 ### Chat
 
-This template includes a Chat configuration focused on gathering contact information and creating contacts in Salesforce for prospects interested in a product demo.
+This template includes a Chat configuration focused on gathering contact information and creating leads in Salesforce for prospects interested in a product demo.
 
 ### Plugins
 
-This template includes a plugin with a custom typescript function to handle the programmatic creation of contacts in Salesforce.
+This template includes a plugin with a custom typescript function to handle the programmatic creation of leads in Salesforce.
 
 ## **Installation Guide**
 
